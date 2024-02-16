@@ -8,8 +8,19 @@ body {
     background-color: rgb(180, 210, 186);
 }
 
-table, th, td {
-    border: 2px solid black;
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    color: rgb(135, 61, 72);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+th, td {
+    text-align: left;
     border-collapse: collapse;
     padding: 15px;
     margin: auto;
@@ -37,11 +48,4 @@ table, th, td {
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-#logo {
-    color: rgb(135, 61, 72);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
