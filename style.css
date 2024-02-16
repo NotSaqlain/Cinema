@@ -1,5 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav {
+    
+    background-color: rgb(70, 79, 81);
+    overflow: hidden;
+}
+
+/* CSS for the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* CSS for the active link */
+.topnav a.active {
+    background-color: rgb(15, 244, 198);
+    
+    color: rgb(0, 0, 9);
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
